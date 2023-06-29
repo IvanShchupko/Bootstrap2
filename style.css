@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: #e964e9;
+}
+.card {
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #680d68;
+    box-shadow: 20px 20px 20px #680d68;
+    width: 20rem;
+}
+.card-img-top {
+}
+.card-body {
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff;
+}
+.card-title {
+    transform: rotate(10deg);
+    margin-top: 10px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.card-title:hover {
+    transform: rotate(0deg);
+}
+.card-text {
+    transform: rotate(-10deg);
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 14px;
+}
+.card-text:hover {
+    transform: rotate(0deg);
+}
+.btn {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKbVgOLjyd1EME5f0yxKpvT0acKUShUmluw&usqp=CAU);
+    background-size: cover;
+    width: 200px;
+    background-repeat: no-repeat;
+    height: 100px;
+    box-shadow: 5px 5px 10px #fff;
+}
+.btn:nth-child(2) {
+    background: #4881d2;
+    box-shadow: 5px 5px 10px #ffffff00;
+    margin-right: 35px;
+    border: 3px solid;
+    color: #ffff00;
+}
+.btn:nth-child(1) {
+    background: #5b125b;
+    box-shadow: 5px 5px 10px #ffffff00;
+    border: 3px solid;
+}
+.btn-primary {
+    margin: 20px 0 20px 0;
+    color: #680d68;
+    text-shadow: 0 0 10px #680d68c0;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.modal {
+}
+.fade {
+}
+.modal-dialog {
+}
+.modal-content {
+}
+.modal-header {
+    background-color: #9f419f;
+}
+.modal-title {
+}
+.fs-5 {
+}
+.btn-close {
+}
+.modal-body {
+    background-color: #9f419f;
+}
+.modal-footer {
+    background-color: #9f419f;
+}
+.btn-secondary {
+}
